@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+<!-- Favicon      -->
+    <link rel="icon" href="images/microsoft.png">
+
+<!-- Title     -->
+    <title>Microsoft Teams</title>
+
+<!-- Bootstarp 4 Styling     -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+
+    <!-- Search Bar & Dropdowns -->
+
+    <section id="first_section">
+    <nav class="navbar navbar-dark  bg-color nav-item ">
+      <div class="dropdown space_top nav-item no_left_pad">
+        <button class="btn btn-outline-light back_color dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          ...
+        </button>
+        <div class="dropdown-menu "  aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Settings</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Zoom</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Keyboard Shortcuts</a>
+          <a class="dropdown-item" href="#">About</a>
+          <a class="dropdown-item" href="#">Check for Updates</a>
+          <a class="dropdown-item" href="#">Download Mobile App</a>
+        </div>
+      </div>
+      <input class="form-control mr-sm-2 search_box bg-color " type="search" placeholder="Search" aria-label="Search">
+    <div class="dropdown space_top navbar nav-item  right_mg">
+      <button class="btn btn-outline-light back_color dropdown-toggle truncate" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <img src="images/programmer.png" alt="Profile Pic" width="50px" height="50px">
+        Vidyalankar Institute of Technology
+      </button>
+      <div class="dropdown-menu "  aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#"><img src="images/suitcase.png" alt="Suitcase" width="20px" height="20px" > Vidyalankar Institute of Technology</a>
+        <a class="dropdown-item" href="#"> <img src="images/suitcase.png" alt="Suitcase" width="20px" height="20px"> <strong>Vidyalankar Polytechnic (Guest)</strong></a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#"><img src="images/ribbon.png" alt="Bookmark" width="15px" height="15px"> Saved</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Manage Account</a>
+        <a class="dropdown-item" href="#">Add Personal Account</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Sign Out</a>
+      </div>
+    </div>
+  </nav>
+</section>
+
+    <!-- Teams & Craete New Team Button -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary spc_top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand spc_lft" href="#">Teams</a>
+
+<div class="nav_add">
+    <button type="button" class="btn btn-outline-light  filter" data-toggle="tooltip" data-placement="bottom" title="Filter">
+      <img class="filter_logo" src="images/filter.png" alt="Filter">
+    </button>
+
+    <button type="button" class="btn btn-outline-light settings" data-toggle="tooltip" data-placement="bottom" title="Settings">
+      <img class="filter_logo" src="images/settings.png" alt="Settings">
+    </button>
+    <button type="button" class="btn btn-outline-light settings" data-toggle="tooltip" data-placement="bottom" title="Join or Create Team">
+      <img class="filter_logo" src="images/add-friend.png" alt="Add Members">
+      Join or Create Team
+    </button>
+</div>
+        </div>
+    </nav>
+
+<!-- Fixed-Navbar on Left  -->
+
+<div class="sidenav">
+  <button class="btn btn_imgs first_activity btn-outline-light" type="button" name="button" data-toggle="tooltip" data-placement="top" title="Activity">
+    <img src="images/bell.png" alt="Activity" height="20px" width="20px">
+  </button>
+  <button class="btn  btn-outline-light btn_imgs" type="button" name="button" data-toggle="tooltip" data-placement="top" title="Chat">
+    <img src="images/messenger.png" alt="Chat"  height="20px" width="20px">
+  </button>
+  <button class="btn  btn-outline-light btn_imgs" type="button" name="button" data-toggle="tooltip" data-placement="top" title="Teams">
+    <img src="images/team.png" alt="Teams"  height="20px" width="20px">
+  </button>
+  <button class="btn  btn-outline-light btn_imgs" type="button" name="button" data-toggle="tooltip" data-placement="top" title="Assignments">
+    <img src="images/school-bag.png" alt="Assignments"  height="20px" width="20px">
+  </button>
+  <button class="btn  btn-outline-light btn_imgs" type="button" name="button" data-toggle="tooltip" data-placement="top" title="Calender">
+    <img src="images/calendar.png" alt="Calender"  height="20px" width="20px">
+  </button>
+  <button class="btn  btn-outline-light btn_imgs" type="button" name="button" data-toggle="tooltip" data-placement="top" title="Calls">
+    <img src="images/phone-call.png" alt="Calls"  height="20px" width="20px">
+  </button>
+  <button class="btn  btn-outline-light btn_imgs" type="button" name="button" data-toggle="tooltip" data-placement="top" title="Files">
+    <img src="images/files.png" alt="Files"  height="20px" width="20px">
+  </button>
+  <button class="btn  btn-outline-light btn_imgs" type="button" name="button" data-toggle="tooltip" data-placement="top" title="More">
+    <img src="images/more.png" alt="More"  height="20px" width="20px">
+  </button>
+
+  <button class="btn  btn-outline-light btn_imgs spec_spc" type="button" name="button" data-toggle="tooltip" data-placement="top" title="Apps">
+    <img src="images/application.png" alt="Apps"  height="20px" width="20px">
+  </button>
+  <button class="btn  btn-outline-light btn_imgs" type="button" name="button" data-toggle="tooltip" data-placement="top" title="Help">
+    <img src="images/question-mark.png" alt="Help"  height="20px" width="20px">
+  </button>
+</div>
+
+<!-- Actual Teams -->
+
+<section id="teams">
+
+<div class="row">
+  <div class="card cil-md-3 card_data" style="width: 16rem;">
+    <div class="color_black_cards">
+  <strong class="card_font">EM</strong>
+    </div>
+  <div class="card-body card_align">
+    <p class="card-text">Engineering Mathematics III.</p>
+  </div>
+  </div>
+
+  <div class="card cil-md-3 card_data" style="width: 16rem;">
+    <div class="color_black_cards">
+  <strong class="card_font">EICS</strong>
+    </div>
+  <div class="card-body">
+    <p class="card-text card_align">Electronic Instruments & Control Systems</p>
+  </div>
+  </div>
+
+  <div class="card cil-md-3 card_data" style="width: 16rem;">
+    <div class="color_black_cards">
+  <strong class="card_font">EP II</strong>
+    </div>
+  <div class="card-body">
+    <p class="card-text card_align">Engeneering Physics II</p>
+  </div>
+  </div>
+
+  <div class="card cil-md-3 card_data" style="width: 16rem;">
+    <div class="color_black_cards">
+  <strong class="card_font">EC II</strong>
+    </div>
+  <div class="card-body">
+    <p class="card-text card_align">Engineering Chemistry II</p>
+  </div>
+  </div>
+</div>
+
+<div class="row deck2">
+  <div class="card cil-md-3 card_data" style="width: 16rem;">
+    <div class="color_black_cards">
+  <strong class="card_font">EG</strong>
+    </div>
+  <div class="card-body">
+    <p class="card-text card_align">Engineering Graphics II</p>
+  </div>
+  </div>
+
+  <div class="card cil-md-3 card_data" style="width: 16rem;">
+    <div class="color_black_cards">
+  <strong class="card_font">PCE</strong>
+    </div>
+  <div class="card-body">
+    <p class="card-text card_align">Professional Communication & Ethics</p>
+  </div>
+  </div>
+
+  <div class="card cil-md-3 card_data" style="width: 16rem;">
+    <div class="color_black_cards">
+  <strong class="card_font">EP I</strong>
+    </div>
+  <div class="card-body">
+    <p class="card-text card_align">Engineering Physics I</p>
+  </div>
+  </div>
+
+  <div class="card cil-md-3 card_data" style="width: 16rem;">
+    <div class="color_black_cards">
+  <strong class="card_font">DSD</strong>
+    </div>
+  <div class="card-body">
+    <p class="card-text card_align">Digital System Designs</p>
+  </div>
+  </div>
+</div>
+
+<div class="row deck2">
+  <div class="card cil-md-3 card_data" style="width: 16rem;">
+    <div class="color_black_cards">
+  <strong class="card_font">BEE</strong>
+    </div>
+  <div class="card-body">
+    <p class="card-text card_align">Basic Electrical Engineering.</p>
+  </div>
+  </div>
+
+  <div class="card cil-md-3 card_data" style="width: 16rem;">
+    <div class="color_black_cards">
+  <strong class="card_font">NT</strong>
+    </div>
+  <div class="card-body">
+    <p class="card-text card_align">Network Theory</p>
+  </div>
+  </div>
+
+  <div class="card cil-md-3 card_data" style="width: 16rem;">
+    <div class="color_black_cards">
+  <strong class="card_font">WS</strong>
+    </div>
+  <div class="card-body">
+    <p class="card-text card_align">Workshod Trades</p>
+  </div>
+  </div>
+
+  <div class="card cil-md-3 card_data" style="width: 16rem;">
+    <div class="color_black_cards">
+  <strong class="card_font">ESE</strong>
+    </div>
+  <div class="card-body">
+    <p class="card-text card_align">End-Sem Examinations 2020-2022</p>
+  </div>
+  </div>
+</div>
+</section>
+
+
+
+
+
+
+  </body>
+
+</html>

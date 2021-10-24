@@ -1,0 +1,157 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #1b1e22;
+  margin-left: 4rem;
+  margin-bottom: 2rem;
+}
+
+#first_section{
+  margin-top: 1rem;
+}
+
+.no_left_pad{
+  padding-left: 9rem;
+}
+
+.right_mg{
+  padding-right: 0;
+  margin-right: 5rem;
+}
+
+.truncate{
+  width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bg-color{
+  background-color: #1b1e22;
+  color: #fff;
+}
+/* //#6c757d */
+
+.search_box{
+  width: 600px;
+  text-align: left;
+  margin-left: 4rem;
+}
+
+.spc_top{
+  margin-top: 0.5rem;
+}
+
+.spc_lft{
+  margin-left: 3rem;
+}
+
+.nav_add{
+  padding-left: 2rem;
+}
+
+.filter{
+  margin-left: 56rem;
+}
+
+.filter_logo{
+  width: 20px;
+  height: 20px;
+  padding-bottom: 4px;
+  padding-right: 2px;
+}
+
+.settings{
+  margin-left: 2rem;
+}
+
+.add_team{
+    margin-left: 2rem;
+}
+
+.add_users{
+  width: 20px;
+  height: 20px;
+  padding-bottom: 2px;
+  padding-right: 2px;
+
+}
+
+.create_team{
+  text-align: center;
+}
+
+.top_marg{
+  margin-top: 10px;
+}
+
+/* Sidefixed Nav Bar */
+
+.sidenav {
+  height: 100%;
+  width: 110px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #1b1e22;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding-top: 20px;
+}
+
+.btn_imgs{
+  margin-left: 1.5rem;
+  margin-bottom: 25px;
+  background-color: #6c757d;
+}
+
+.back_color{
+  background-color: #6c757d;
+}
+
+.first_activity{
+  margin-top: 1.2rem;
+}
+
+.spec_spc{
+  margin-top: 3rem;
+}
+
+#teams{
+  margin-left: 4rem;
+  margin-top: 2rem;
+  margin-right: 4rem;
+}
+
+.card_data{
+  width: 100px;
+  height: 210px;
+    background-color: #6c757d;
+    color: #fff;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.deck2{
+  margin-top: 2.5rem;
+}
+
+.color_black_cards{
+  background-color:#1b1e22;
+  width: 8rem;
+  height: 5rem;
+  margin-left: 4rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.card_font{
+  font-size: 3rem;
+  text-align: center;
+}
+
+.card_align{
+  text-align: center;
+}
